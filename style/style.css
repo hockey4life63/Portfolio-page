@@ -1,0 +1,34 @@
+body{
+	margin: 0;
+	padding: 0;
+	background: black;
+	color: white;
+}
+
+h1{
+	text-align: center;
+	background: lightgray;
+	top: 0;
+	margin: 0;
+	color: orange;
+}
+nav{
+	background: lightgray;
+	color: black;
+	float: left;
+	margin: auto;
+	align-content: center;
+	width: 100%;
+}
+
+ul{
+	padding: 0;
+	width: 25%;
+	margin: auto;
+	list-style: none;
+}
+li{
+	float: left;
+	display: inline;
+	margin-right: 10%;
+}
