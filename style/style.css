@@ -23,12 +23,45 @@ nav{
 
 ul{
 	padding: 0;
-	width: 25%;
-	margin: auto;
+	margin: 0;
 	list-style: none;
+	text-align: center;
 }
 li{
+	display: inline-block;
+	padding-right: 5%;
+	padding-left: 5%;
+}
+.container{
+	width: 90%;
+	margin: auto;
+}
+
+.wrapper{
+	margin-top: 5%;
+	border: 3px solid gray;
+	color: black;
+	background: darkgray;
+}
+.wrapper>h2{
+	text-align: center;
+	font-weight: bold;
+}
+.wrapper>p{
+	margin-right: 5%;
+	margin-left: 5%;
+}
+.halfwrap{
 	float: left;
-	display: inline;
-	margin-right: 10%;
+	width: 49%;
+	margin-top: 5%;
+	border: 3px solid gray;
+	color: black;
+	background: darkgray;
+}
+.halfwrap-right{
+	float: right;
+}
+.halfwrap>h2{
+	text-align: center;
 }
